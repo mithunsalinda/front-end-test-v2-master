@@ -28,7 +28,7 @@ class Products extends Component {
               this.props.products.map((product) => (
                   <div className="product-Box" key={product._id}>
                       <h2 className="txth3">{product.name}</h2>
-                      <div className="imageWrap"><img className="imageFullWidth" src={product.imagePath} alt={product.name}></img></div>
+                      <div className="imageWrap"><img className="imageFullWidth" src={`.${product.imagePath}`} alt={product.name}></img></div>
                       <p className={(itemsInBucket.indexOf(product.name) > -1) ? "txtPrice txtInBag" : "txtPrice"}>{product.priceFormatted}</p>
                     
                     <div className="product-price">
