@@ -1,5 +1,4 @@
-{
-    "products":[
+[
   {
     "name": "A 200",
     "price": "29500.00",
@@ -37,4 +36,3 @@
     "imagePath": "/assets/carImages/aclasssilver.jpg"
   }
 ]
-}
