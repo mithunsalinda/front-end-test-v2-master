@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from "react";
+import './styles.scss';
+import Products from "./components/Products";
+import Filter from "./components/Filter";
+import Cart from "./components/Cart";
+import store from "./store";
+import { Provider } from "react-redux";
+class App extends React.Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <Cart />
+        <div className="grid-container">
+          <main>
+            <div className="container">
+              <div className="main">
+                <Filter></Filter>
+                <Products></Products>
+              </div>
+              <footer>FE Change by mithun.salinda.j@gmail.com</footer>
+            </div>
+          </main>
+        </div>
+      </Provider>
+    );
+  }
 }
-
 export default App;
