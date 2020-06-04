@@ -1,7 +1,7 @@
 import { FETCH_PRODUCTS } from "../types";
 import { FILTER_PRODUCTS_TYPE } from "../types";
 export const fetchProducts = () => async (dispatch) => {
-  const res = await fetch("http://mithunsalinda.github.io/front-end-test-v2-master/list.json");
+  const res = await fetch("https://mithunsalinda.github.io/front-end-test-v2-master/list.json");
   const data = await res.json();
   console.log(data);
   dispatch({
