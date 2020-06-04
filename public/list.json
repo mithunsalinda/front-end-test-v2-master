@@ -1,0 +1,40 @@
+{
+    "products":[
+  {
+    "name": "A 200",
+    "price": "29500.00",
+    "priceFormatted": "29.500,00 €",
+    "imagePath": "/assets/carImages/aclasswhite.jpg"
+  },
+  {
+    "name": "A 200 Auto",
+    "price": "31900.50",
+    "priceFormatted": "31.900,50 €",
+    "imagePath": "/assets/carImages/aclasssilver.jpg"
+  },
+  {
+    "name": "A 250 Auto",
+    "price": "45400.10",
+    "priceFormatted": "45.400,10 €",
+    "imagePath": "/assets/carImages/aclassred.jpg"
+  },
+  {
+    "name": "A 180 d",
+    "price": "29050.00",
+    "priceFormatted": "29.050,00 €",
+    "imagePath": "/assets/carImages/aclassred.jpg"
+  },
+  {
+    "name": "A 200 d Auto",
+    "price": "38350.00",
+    "priceFormatted": "38.350,00 €",
+    "imagePath": "/assets/carImages/aclasswhite.jpg"
+  },
+  {
+    "name": "A 220 d Auto",
+    "price": "43800.70",
+    "priceFormatted": "43.800,70 €",
+    "imagePath": "/assets/carImages/aclasssilver.jpg"
+  }
+]
+}
