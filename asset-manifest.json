@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/front-end-test-v2-master/static/css/main.f34cca6d.chunk.css",
+    "main.js": "/front-end-test-v2-master/static/js/main.4ad7c3ca.chunk.js",
+    "main.js.map": "/front-end-test-v2-master/static/js/main.4ad7c3ca.chunk.js.map",
+    "runtime-main.js": "/front-end-test-v2-master/static/js/runtime-main.4d6665f7.js",
+    "runtime-main.js.map": "/front-end-test-v2-master/static/js/runtime-main.4d6665f7.js.map",
+    "static/js/2.14665023.chunk.js": "/front-end-test-v2-master/static/js/2.14665023.chunk.js",
+    "static/js/2.14665023.chunk.js.map": "/front-end-test-v2-master/static/js/2.14665023.chunk.js.map",
+    "index.html": "/front-end-test-v2-master/index.html",
+    "precache-manifest.d45ac97e3c082692c79b4b4959310a24.js": "/front-end-test-v2-master/precache-manifest.d45ac97e3c082692c79b4b4959310a24.js",
+    "service-worker.js": "/front-end-test-v2-master/service-worker.js",
+    "static/css/main.f34cca6d.chunk.css.map": "/front-end-test-v2-master/static/css/main.f34cca6d.chunk.css.map",
+    "static/js/2.14665023.chunk.js.LICENSE.txt": "/front-end-test-v2-master/static/js/2.14665023.chunk.js.LICENSE.txt",
+    "static/media/mb-star.svg": "/front-end-test-v2-master/static/media/mb-star.299981ea.svg",
+    "static/media/mb-wordmark.svg": "/front-end-test-v2-master/static/media/mb-wordmark.8fb3c5c8.svg",
+    "static/media/styles.scss": "/front-end-test-v2-master/static/media/spinner.5fa9f824.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d6665f7.js",
+    "static/js/2.14665023.chunk.js",
+    "static/css/main.f34cca6d.chunk.css",
+    "static/js/main.4ad7c3ca.chunk.js"
+  ]
+}
